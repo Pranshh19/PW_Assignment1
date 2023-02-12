@@ -1,0 +1,90 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+body{
+    background-image: url('p1.png') ;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-size:cover;
+    background-color: rgb(64, 58, 58);
+    background-blend-mode:overlay;
+    
+}
+
+.div2{
+    text-align: center;
+    font-size: xx-large;
+    font-family: cursive;
+    margin-top: 100px;
+    color:rgb(207, 181, 34);
+    z-index:1;
+}
+
+.div3{
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+
+}
+
+.btn{
+    background-color: rgb(255, 81, 116);
+    border:none;
+    color:white;
+    font-weight: bold;
+    padding: 15px;
+    display:inline-block;
+    font-size:medium;
+    margin-top:50px;
+
+
+}
+
+.btn2{
+    background-color: rgb(255, 81, 116);
+    border:none;
+    color:white;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display:inline-block;
+    font-size:x-large;
+}
+
+
+/* Navigation bar CSS */
+
+.box{
+    height:100px;
+    width:100px;
+}
+.box1{color:rgb(255, 196, 45); margin-top: 60px; font-size: medium;}
+.box2{color:rgb(255, 196, 45); margin-top: 60px;  font-size: medium;}
+.box3{color:rgb(255, 196, 45) ; margin-top: 60px;  font-size: medium;}
+
+.cont{
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+    /* border:1px solid red; */
+    
+    
+}
+.spa{
+    margin-right: 150px;
+}
+.spa2{
+    margin-left:100px;
+    margin-right:50px;
+}
+
+
+/* Logo 2 */
+.logo2{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
